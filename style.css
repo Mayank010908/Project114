@@ -1,0 +1,25 @@
+canvas{
+    background-color: brown;
+    margin-top: 50px;
+}
+
+.btn-danger:hover{
+    background-color: darkcyan;
+}
+
+canvas{
+    animation-name: clown;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clown{
+
+    from{
+        box-shadow: 5px 5px 40px red;
+    }
+
+    to{
+        box-shadow:5px 5px 40px blue;
+    }
+}
